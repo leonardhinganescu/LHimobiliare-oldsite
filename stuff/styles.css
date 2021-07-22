@@ -543,7 +543,7 @@ figure {
   opacity: 85%;
 }
 
-.home-page .img-container {
+.home-page {
   height: 350px;
 }
 
@@ -789,6 +789,12 @@ figure {
     height: 100%;
   }
   .img-container img {
+    height: unset;
+  }
+  .home-page {
+    height: 100%;
+  }
+  .home-page img {
     height: unset;
   }
   .img-content {
