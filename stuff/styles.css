@@ -522,13 +522,13 @@ figure {
 
 .img-container {
   width: 100%;
-  height: 400px;
+  height: 450px;
   overflow: hidden;
 }
 
 .img-container img {
   width: 100%;
-  height: 400px;
+  height: 450px;
   -o-object-fit: cover;
      object-fit: cover;
   -webkit-transform: scale(1);
@@ -540,7 +540,15 @@ figure {
 .img-container:hover {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  opacity: 80%;
+  opacity: 85%;
+}
+
+.home-page .img-container {
+  height: 350px;
+}
+
+.home-page img {
+  height: 350px;
 }
 
 .scrollUpBtn {
